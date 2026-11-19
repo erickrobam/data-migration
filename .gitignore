@@ -1,0 +1,22 @@
+# Local credentials and environment
+.env
+.env.*
+!.env.example
+
+# Generated exports and local files
+*.xlsx
+*.xls
+*.csv
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
